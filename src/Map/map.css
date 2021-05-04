@@ -1,0 +1,18 @@
+.map {
+    border-radius: 20px;
+    box-shadow: 0 0 8px -4px rgb(255, 255, 255);
+    overflow: hidden;
+    transition: all ease 1.5s;
+}
+
+.popup{
+    max-width: 200px;
+    max-height: 300px;
+}
+img{
+    width: 80px;
+}
+div{
+    font-size: 12px;
+}
+

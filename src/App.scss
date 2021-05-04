@@ -1,0 +1,66 @@
+body{
+  background-color: #212121;
+}
+
+.app{
+  display: flex;
+  padding: 10px;
+  overflow-x: hidden;
+
+  .app__left{
+    flex: 3;
+    margin-right: 20px;
+
+    .app__header{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      justify-content: space-between;
+
+      h1{
+        color: white;
+      }
+
+      .app__dropdown{
+
+        .app__select{
+          color: #dbdbdb;
+
+        }
+      }
+
+    }
+
+    .app__stats{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+    }
+
+  }
+
+  .app__right{
+    flex:2;
+
+    h2{
+      color: #B2B2B2;
+    }
+
+  }
+}
+
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+

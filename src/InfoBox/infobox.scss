@@ -1,0 +1,31 @@
+.infoBox{
+  background-color: #424242;
+  flex: 1;
+  cursor: pointer;
+
+  &:not(:last-child){
+    margin-right: 16px;
+  }
+  .infoBox__title{
+    color: #B2B2B2;
+    margin-bottom: 5px;
+
+  }
+
+  h2{
+    color: #FFFFFF;
+  }
+  .infoBox__total{
+    color: #C6C6C6;
+    margin-top: 5px;
+  }
+
+  .underline{
+    width: inherit;
+    height: 3px;
+  }
+}
+
+.infoBox__selected{
+  border-top: 10px solid yellow;
+}
