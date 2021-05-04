@@ -119,7 +119,7 @@ function Map({center, zoom, countriesInfo, casesType}) {
             className={'map'}
             mapStyle={'mapbox://styles/iamorris/cko34117a2hg218moiod9jgdt'}
             {...viewport}
-            mapboxApiAccessToken={process.env.REACT_APP_MAPBOX}
+            mapboxApiAccessToken={'pk.eyJ1IjoiaWFtb3JyaXMiLCJhIjoiY2tvMjN0emx4MDUwcDMxcGRmaDFydGVzZSJ9.L2vaoM3kH8k0filJ-WJFNg'}
             onViewportChange={nextViewport => setViewport(nextViewport)}
         >
             <NavigationControl style={navControlStyle} />
