@@ -6,7 +6,8 @@ const InfoBox = ({title, cases, total, active, color, ...props}) => {
     return (
         <Card
             onClick={props.onClick}
-            className={`infoBox ${active && 'infoBox__selected'}`} style={ {backgroundColor: '#424242'} + active ? {borderColor:color} :{borderColor:'none'}}
+            className={`infoBox ${active && 'infoBox__selected'}`} style={active ? {borderColor:color,
+            backgroundColor: '#424242'} :{borderColor:'none', backgroundColor: '#424242'}}
         >
             <CardContent>
             {/*    Title*/}
